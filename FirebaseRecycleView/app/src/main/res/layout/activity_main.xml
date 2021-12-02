@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:layout_margin="20dp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textSize="17sp"
+        android:layout_margin="20dp"
+        android:inputType="textEmailAddress"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:textSize="17sp"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonC"
+        android:hint="@string/Crear"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:shadowColor="@color/teal_700"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mostrardb"
+        android:hint="@string/mostrardb"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:shadowColor="@color/teal_700"/>
+</LinearLayout>

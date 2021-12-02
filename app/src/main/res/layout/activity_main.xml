@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/email"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/nombre"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        android:textSize="17sp"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/Crear"
+        android:shadowColor="@color/teal_700"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/mostrardb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/mostrardb"
+        android:hintTextColor="#FBC02D"
+        android:shadowColor="@color/teal_700"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>

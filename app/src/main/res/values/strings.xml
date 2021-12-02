@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseRecycleView</string>
+    <string name="usuario">Usuario</string>
+    <string name="email">email</string>
+    <string name="nombre">nombre</string>
+    <string name="Crear">crear</string>
+    <string name="mostrardb">mostrar datos</string>
+    <string name="emailcard">Email</string>
+    <string name="dummy_dummy_com">dummy@dummy.com</string>
+    <string name="email_text_card">Email</string>
+    <string name="nombre_text_card">Nombre</string>
+    <string name="nombre_texto">dummy.com</string>
+    <string name="apellido_card_value">apellido</string>
+    <string name="apellido_card">Apellido</string>
+    <string name="Registro">Button</string>
+    <string name="button">Registro</string>
+</resources>
